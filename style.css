@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+background: #DA3029;
+background: radial-gradient(at right top, #DA3029, #FFBE87);
+  font-family: Arial, sans-serif;
+}
+  
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5rem 0.15rem;
+  max-width: 25rem;
+  padding: 1rem;
+  background: linear-gradient(45deg ,rgb(164, 48, 48),rgb(124, 74, 74));
+  border-radius: 2rem;
+  box-shadow: 0.2rem 0.1rem 0.6rem rgb(68, 49, 49);
+  border: 0.25rem solid rgb(0, 0, 0);
+  height: 35rem;
+}
+  
+.display {
+  grid-column: 1 / -1;
+  padding: 0.65rem;
+  font-size: 2.5rem;
+  background: linear-gradient(45deg ,rgb(240, 255, 184),rgb(133, 133, 133));
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  height: 4.5rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  font-weight: bolder;
+  font-family: serif;
+}
+  
+.btn {
+  padding: 0.65rem 1.5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  background:linear-gradient(45deg ,rgb(97, 69, 69),rgb(18, 18, 18));
+  border: 0.2rem solid #000000;
+  border-radius: 1rem;
+  font-family: serif;
+  font-weight: bolder;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: black;    
+}
+  
+.about {
+  text-align: center;
+}
+  
+#boxer{
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
